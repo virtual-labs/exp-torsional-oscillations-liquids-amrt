@@ -1,38 +1,55 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "What physical quantity is primarily measured in the torsional oscillation experiment?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Frequency",
+        "b": "Moment of Inertia",
+        "c": "Angular Displacement",
+        "d": "Mass"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Frequency is related but not the primary focus.",
+        "b": "Correct. Moment of Inertia is the key result measured in the simulation.",
+        "c": "Angular displacement is involved but not the main outcome.",
+        "d": "Mass is an input, not the measured output."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which parameter can be varied to study the damping effect of different liquids?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "String type",
+        "b": "Object shape",
+        "c": "Medium",
+        "d": "Amplitude"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "String affects restoring torque, not damping.",
+        "b": "Object shape affects inertia, not damping medium.",
+        "c": "Correct. Medium affects the damping of oscillations.",
+        "d": "Amplitude affects motion but not the damping medium."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does increasing the mass of the object affect the moment of inertia in this experiment?",
+      "answers": {
+        "a": "It decreases the moment of inertia",
+        "b": "It increases the moment of inertia",
+        "c": "It does not change the moment of inertia",
+        "d": "It only affects the amplitude"
+      },
+      "explanations": {
+        "a": "Incorrect. Moment of inertia is directly proportional to mass.",
+        "b": "Correct. More mass results in a higher moment of inertia.",
+        "c": "Incorrect. Mass is a key factor in calculating moment of inertia.",
+        "d": "Mass also affects inertia, not just amplitude."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
