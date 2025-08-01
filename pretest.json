@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "What physical quantity is primarily measured in the torsional oscillation experiment?",
+      "answers": {
+        "a": "Frequency",
+        "b": "Moment of Inertia",
+        "c": "Angular Displacement",
+        "d": "Mass"
+      },
+      "explanations": {
+        "a": "Frequency is related but not the primary focus.",
+        "b": "Correct. Moment of Inertia is the key result measured in the simulation.",
+        "c": "Angular displacement is involved but not the main outcome.",
+        "d": "Mass is an input, not the measured output."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which parameter can be varied to study the damping effect of different liquids?",
+      "answers": {
+        "a": "String type",
+        "b": "Object shape",
+        "c": "Medium",
+        "d": "Amplitude"
+      },
+      "explanations": {
+        "a": "String affects restoring torque, not damping.",
+        "b": "Object shape affects inertia, not damping medium.",
+        "c": "Correct. Medium affects the damping of oscillations.",
+        "d": "Amplitude affects motion but not the damping medium."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does increasing the mass of the object affect the moment of inertia in this experiment?",
+      "answers": {
+        "a": "It decreases the moment of inertia",
+        "b": "It increases the moment of inertia",
+        "c": "It does not change the moment of inertia",
+        "d": "It only affects the amplitude"
+      },
+      "explanations": {
+        "a": "Incorrect. Moment of inertia is directly proportional to mass.",
+        "b": "Correct. More mass results in a higher moment of inertia.",
+        "c": "Incorrect. Mass is a key factor in calculating moment of inertia.",
+        "d": "Mass also affects inertia, not just amplitude."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following objects will generally have the highest moment of inertia in torsional oscillation?",
+      "answers": {
+        "a": "Disc",
+        "b": "Cylinder",
+        "c": "Dumbbell",
+        "d": "All have the same"
+      },
+      "explanations": {
+        "a": "Discs have more evenly distributed mass.",
+        "b": "Cylinders have moderate moment of inertia.",
+        "c": "Correct. Dumbbells typically have higher moment of inertia due to mass concentration at the ends.",
+        "d": "Incorrect. Moment of inertia depends on mass distribution."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which control in the simulation allows the user to change the object used in the torsional pendulum?",
+      "answers": {
+        "a": "Choose Medium",
+        "b": "Mass Slider",
+        "c": "Choose Object",
+        "d": "Choose String"
+      },
+      "explanations": {
+        "a": "This changes the surrounding medium, not the object.",
+        "b": "This modifies the object's mass, not the type.",
+        "c": "Correct. This allows selection between Disc, Cylinder, and Dumbbell.",
+        "d": "This changes the string, not the object."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is it important to vary only one parameter at a time in the simulation?",
+      "answers": {
+        "a": "To save time",
+        "b": "To isolate the effect of that parameter",
+        "c": "To prevent the system from crashing",
+        "d": "To increase oscillation speed"
+      },
+      "explanations": {
+        "a": "Not the main reason.",
+        "b": "Correct. It ensures a clear understanding of the influence of each parameter.",
+        "c": "The system is designed to handle changes.",
+        "d": "Parameter variation is for analysis, not speed control."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

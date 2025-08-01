@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+     {
+      "question": "Which of the following objects will generally have the highest moment of inertia in torsional oscillation?",
+      "answers": {
+        "a": "Disc",
+        "b": "Cylinder",
+        "c": "Dumbbell",
+        "d": "All have the same"
+      },
+      "explanations": {
+        "a": "Discs have more evenly distributed mass.",
+        "b": "Cylinders have moderate moment of inertia.",
+        "c": "Correct. Dumbbells typically have higher moment of inertia due to mass concentration at the ends.",
+        "d": "Incorrect. Moment of inertia depends on mass distribution."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which control in the simulation allows the user to change the object used in the torsional pendulum?",
+      "answers": {
+        "a": "Choose Medium",
+        "b": "Mass Slider",
+        "c": "Choose Object",
+        "d": "Choose String"
+      },
+      "explanations": {
+        "a": "This changes the surrounding medium, not the object.",
+        "b": "This modifies the object's mass, not the type.",
+        "c": "Correct. This allows selection between Disc, Cylinder, and Dumbbell.",
+        "d": "This changes the string, not the object."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is it important to vary only one parameter at a time in the simulation?",
+      "answers": {
+        "a": "To save time",
+        "b": "To isolate the effect of that parameter",
+        "c": "To prevent the system from crashing",
+        "d": "To increase oscillation speed"
+      },
+      "explanations": {
+        "a": "Not the main reason.",
+        "b": "Correct. It ensures a clear understanding of the influence of each parameter.",
+        "c": "The system is designed to handle changes.",
+        "d": "Parameter variation is for analysis, not speed control."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
